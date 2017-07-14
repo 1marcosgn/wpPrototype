@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8768F09EA0C95BF0C73F69 /* Pods_WhitePages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */; };
 		7FB958611F19870600AD4CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB958601F19870600AD4CA3 /* AppDelegate.swift */; };
 		7FB958631F19870600AD4CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB958621F19870600AD4CA3 /* ViewController.swift */; };
 		7FB958661F19870600AD4CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB958641F19870600AD4CA3 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.release.xcconfig"; sourceTree = "<group>"; };
+		6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.debug.xcconfig"; sourceTree = "<group>"; };
 		7FB9585D1F19870600AD4CA3 /* WhitePages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitePages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB958601F19870600AD4CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FB958621F19870600AD4CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		7FB958671F19870600AD4CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB9586A1F19870600AD4CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB9586C1F19870600AD4CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhitePages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8768F09EA0C95BF0C73F69 /* Pods_WhitePages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BCB27E9FBAEC381E00DDDD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7FB958541F19870600AD4CA3 = {
 			isa = PBXGroup;
 			children = (
 				7FB9585F1F19870600AD4CA3 /* WhitePages */,
 				7FB9585E1F19870600AD4CA3 /* Products */,
+				989CF3ECBD0276AAD9535EDC /* Pods */,
+				4BCB27E9FBAEC381E00DDDD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = WhitePages;
 			sourceTree = "<group>";
 		};
+		989CF3ECBD0276AAD9535EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */,
+				4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FB9586F1F19870600AD4CA3 /* Build configuration list for PBXNativeTarget "WhitePages" */;
 			buildPhases = (
+				7C1B98858D79E1BF069A3A1A /* [CP] Check Pods Manifest.lock */,
 				7FB958591F19870600AD4CA3 /* Sources */,
 				7FB9585A1F19870600AD4CA3 /* Frameworks */,
 				7FB9585B1F19870600AD4CA3 /* Resources */,
+				8A82C6D700B224DEBC38F8AC /* [CP] Embed Pods Frameworks */,
+				2F2EE832292E7D90AB1574E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2EE832292E7D90AB1574E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1B98858D79E1BF069A3A1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A82C6D700B224DEBC38F8AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FB958591F19870600AD4CA3 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		7FB958701F19870600AD4CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PF5L22BF84;
@@ -272,6 +348,7 @@
 		};
 		7FB958711F19870600AD4CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PF5L22BF84;
