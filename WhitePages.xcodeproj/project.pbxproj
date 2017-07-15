@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E8768F09EA0C95BF0C73F69 /* Pods_WhitePages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */; };
 		7F25FD311F1A8D3C00C401CB /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */; };
+		7F25FD371F1A996600C401CB /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD361F1A996600C401CB /* GlobalViewController.swift */; };
 		7FB958611F19870600AD4CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB958601F19870600AD4CA3 /* AppDelegate.swift */; };
 		7FB958631F19870600AD4CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB958621F19870600AD4CA3 /* ViewController.swift */; };
 		7FB958661F19870600AD4CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB958641F19870600AD4CA3 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.release.xcconfig"; sourceTree = "<group>"; };
 		6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.debug.xcconfig"; sourceTree = "<group>"; };
 		7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		7F25FD361F1A996600C401CB /* GlobalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		7FB9585D1F19870600AD4CA3 /* WhitePages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitePages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB958601F19870600AD4CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FB958621F19870600AD4CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				7FB958731F19D88A00AD4CA3 /* MainViewController.swift */,
 				7FB958791F19DC8900AD4CA3 /* NavigationViewController.swift */,
 				7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */,
+				7F25FD361F1A996600C401CB /* GlobalViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FB958741F19D88A00AD4CA3 /* MainViewController.swift in Sources */,
+				7F25FD371F1A996600C401CB /* GlobalViewController.swift in Sources */,
 				7FB958631F19870600AD4CA3 /* ViewController.swift in Sources */,
 				7F25FD311F1A8D3C00C401CB /* MenuTableViewController.swift in Sources */,
 				7FB958611F19870600AD4CA3 /* AppDelegate.swift in Sources */,
