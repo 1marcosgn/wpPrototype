@@ -64,6 +64,9 @@
                             <constraint firstAttribute="height" constant="37" id="OrD-5P-QQ2"/>
                             <constraint firstAttribute="width" constant="39" id="ePd-Ss-IsE"/>
                         </constraints>
+                        <connections>
+                            <action selector="elementUpdated:" destination="KGk-i7-Jjw" eventType="valueChanged" id="ToU-t4-nCh"/>
+                        </connections>
                     </pageControl>
                 </subviews>
                 <color key="backgroundColor" red="0.25094899535179138" green="0.25099846720695496" blue="0.25094583630561829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -80,6 +83,12 @@
                     <constraint firstItem="h36-0U-V9v" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="tSy-Yp-vJS"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="Kh4-rB-SHi" id="xFn-m9-wnP"/>
+                <outlet property="pageController" destination="Lwc-2o-3SA" id="1ZG-u8-ps8"/>
+                <outlet property="subtitleLabel" destination="bxY-Gf-hjv" id="DEE-PE-CoL"/>
+                <outlet property="titleLabel" destination="h36-0U-V9v" id="h4K-PK-KpQ"/>
+            </connections>
             <point key="canvasLocation" x="-349" y="-14.5"/>
         </tableViewCell>
     </objects>

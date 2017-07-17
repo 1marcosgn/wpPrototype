@@ -17,6 +17,8 @@ class GlobalViewController: UITableViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor.white
         self.navigationController?.navigationBar.isTranslucent = false
         
+        tableView.isScrollEnabled = false
+        
         //Register Cells
         tableView.register(UINib(nibName: "WPPageControllerCell", bundle: nil), forCellReuseIdentifier: "WPPageControllerCell")
         
