@@ -16,6 +16,10 @@ class GlobalViewController: UITableViewController {
         navigationItem.titleView = UIImageView(image: UIImage(named: "header"))
         self.navigationController?.navigationBar.barTintColor = UIColor.white
         self.navigationController?.navigationBar.isTranslucent = false
+        
+        //Register Cells
+        tableView.register(UINib(nibName: "WPPageControllerCell", bundle: nil), forCellReuseIdentifier: "WPPageControllerCell")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,20 +27,29 @@ class GlobalViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-
     @IBAction func displayMenuController(_ sender: Any) {
         self.slideMenuController()?.openLeft()
     }
     
+    // MARK: - Table view data source
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 355.0
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WPPageControllerCell", for: indexPath)
+        return cell
+    }
 }
