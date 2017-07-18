@@ -1,12 +1,15 @@
 PODS:
+  - lottie-ios (1.5.2)
   - SlideMenuControllerSwift (3.0.1)
 
 DEPENDENCIES:
+  - lottie-ios
   - SlideMenuControllerSwift (~> 3.0)
 
 SPEC CHECKSUMS:
+  lottie-ios: 255a0e95973a5c4424e809d7a5c19f7384c73e84
   SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
 
-PODFILE CHECKSUM: 8ed54528b5651a2d427d08a0fcdc0db5e4db8405
+PODFILE CHECKSUM: 50091ecf9c2dbcf73c5d161790787e0ff932ea98
 
 COCOAPODS: 1.2.1

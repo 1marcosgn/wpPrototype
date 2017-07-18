@@ -7,5 +7,6 @@ target 'WhitePages' do
 
   # Pods for WhitePages
   pod 'SlideMenuControllerSwift', '~> 3.0'
+  pod 'lottie-ios'
 
 end
