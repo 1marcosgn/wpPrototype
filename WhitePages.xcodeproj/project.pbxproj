@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4E8768F09EA0C95BF0C73F69 /* Pods_WhitePages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */; };
 		7F12694E1F1DCFDA008254E1 /* business.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F12694A1F1DCFDA008254E1 /* business.json */; };
+		7F1269521F1DD4DC008254E1 /* WPExtraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1269501F1DD4DC008254E1 /* WPExtraTableViewCell.swift */; };
+		7F1269531F1DD4DC008254E1 /* WPExtraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1269511F1DD4DC008254E1 /* WPExtraTableViewCell.xib */; };
 		7F25FD311F1A8D3C00C401CB /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */; };
 		7F25FD371F1A996600C401CB /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD361F1A996600C401CB /* GlobalViewController.swift */; };
 		7F25FD3B1F1B1CA000C401CB /* WPMenuHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD391F1B1CA000C401CB /* WPMenuHeaderCell.swift */; };
@@ -30,6 +32,8 @@
 		4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.release.xcconfig"; sourceTree = "<group>"; };
 		6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.debug.xcconfig"; sourceTree = "<group>"; };
 		7F12694A1F1DCFDA008254E1 /* business.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = business.json; sourceTree = "<group>"; };
+		7F1269501F1DD4DC008254E1 /* WPExtraTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPExtraTableViewCell.swift; sourceTree = "<group>"; };
+		7F1269511F1DD4DC008254E1 /* WPExtraTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WPExtraTableViewCell.xib; sourceTree = "<group>"; };
 		7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		7F25FD361F1A996600C401CB /* GlobalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		7F25FD391F1B1CA000C401CB /* WPMenuHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMenuHeaderCell.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			children = (
 				7F25FD421F1BCA1800C401CB /* WPPageControllerCell.swift */,
 				7F25FD431F1BCA1800C401CB /* WPPageControllerCell.xib */,
+				7F1269501F1DD4DC008254E1 /* WPExtraTableViewCell.swift */,
+				7F1269511F1DD4DC008254E1 /* WPExtraTableViewCell.xib */,
 			);
 			name = MainCellsControllers;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 				7F25FD3C1F1B1CA000C401CB /* WPMenuHeaderCell.xib in Resources */,
 				7FB958661F19870600AD4CA3 /* Main.storyboard in Resources */,
 				7F25FD451F1BCA1800C401CB /* WPPageControllerCell.xib in Resources */,
+				7F1269531F1DD4DC008254E1 /* WPExtraTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 				7F25FD3F1F1B2DFB00C401CB /* WPFooterMenuCell.swift in Sources */,
 				7F25FD311F1A8D3C00C401CB /* MenuTableViewController.swift in Sources */,
 				7F25FD441F1BCA1800C401CB /* WPPageControllerCell.swift in Sources */,
+				7F1269521F1DD4DC008254E1 /* WPExtraTableViewCell.swift in Sources */,
 				7FB958611F19870600AD4CA3 /* AppDelegate.swift in Sources */,
 				7FB9587A1F19DC8900AD4CA3 /* NavigationViewController.swift in Sources */,
 			);
