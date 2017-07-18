@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class WPPageControllerCell: UITableViewCell, UIPageViewControllerDelegate {
     
@@ -17,8 +18,13 @@ class WPPageControllerCell: UITableViewCell, UIPageViewControllerDelegate {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        let animationView = LOTAnimationView(name: "business")
+        animationView.frame = CGRect(x: -60, y: -80, width: 200, height: 200)
+        self.iconImageView.addSubview(animationView)
+        animationView.loopAnimation = true
+        animationView.play()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
@@ -29,13 +35,13 @@ class WPPageControllerCell: UITableViewCell, UIPageViewControllerDelegate {
         case 0:
             self.titleLabel.text = "People"
             self.subtitleLabel.text = "Find people nearby and connect"
-        case 0:
+        case 1:
             self.titleLabel.text = "Business"
             self.subtitleLabel.text = "Licenses & Permits"
-        case 0:
+        case 2:
             self.titleLabel.text = "Phone"
-            self.subtitleLabel.text = "Cell Phone Carrier, Contact Details.."
-        case 0:
+            self.subtitleLabel.text = "Cell Phone Carrier, Contacts"
+        case 3:
             self.titleLabel.text = "Address"
             self.subtitleLabel.text = "Past Addresses, Locations"
         default:
@@ -50,6 +56,5 @@ class WPPageControllerCell: UITableViewCell, UIPageViewControllerDelegate {
             self.subtitleLabel.alpha = 0.0
             self.subtitleLabel.alpha = 1.0
         }
-        
     }
 }

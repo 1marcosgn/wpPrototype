@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E8768F09EA0C95BF0C73F69 /* Pods_WhitePages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */; };
+		7F12694E1F1DCFDA008254E1 /* business.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F12694A1F1DCFDA008254E1 /* business.json */; };
 		7F25FD311F1A8D3C00C401CB /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */; };
 		7F25FD371F1A996600C401CB /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD361F1A996600C401CB /* GlobalViewController.swift */; };
 		7F25FD3B1F1B1CA000C401CB /* WPMenuHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F25FD391F1B1CA000C401CB /* WPMenuHeaderCell.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		4566D6BF2207866DC65DEC69 /* Pods-WhitePages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.release.xcconfig"; sourceTree = "<group>"; };
 		6C63AC2D248E529AD844A512 /* Pods-WhitePages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePages/Pods-WhitePages.debug.xcconfig"; sourceTree = "<group>"; };
+		7F12694A1F1DCFDA008254E1 /* business.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = business.json; sourceTree = "<group>"; };
 		7F25FD301F1A8D3C00C401CB /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		7F25FD361F1A996600C401CB /* GlobalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		7F25FD391F1B1CA000C401CB /* WPMenuHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMenuHeaderCell.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 				A75D1C817A7C7B2BA1D2ECD1 /* Pods_WhitePages.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F1269431F1D8148008254E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F12694A1F1DCFDA008254E1 /* business.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7F25FD381F1B1C4B00C401CB /* Menu */ = {
@@ -110,6 +120,7 @@
 		7FB9585F1F19870600AD4CA3 /* WhitePages */ = {
 			isa = PBXGroup;
 			children = (
+				7F1269431F1D8148008254E1 /* Resources */,
 				7FB958721F19D86200AD4CA3 /* Controllers */,
 				7FB958601F19870600AD4CA3 /* AppDelegate.swift */,
 				7FB958621F19870600AD4CA3 /* ViewController.swift */,
@@ -205,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F12694E1F1DCFDA008254E1 /* business.json in Resources */,
 				7F25FD401F1B2DFB00C401CB /* WPFooterMenuCell.xib in Resources */,
 				7FB9586B1F19870600AD4CA3 /* LaunchScreen.storyboard in Resources */,
 				7FB958681F19870600AD4CA3 /* Assets.xcassets in Resources */,
